@@ -1,0 +1,717 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+    font-family: 'Anton', sans-serif;
+    text-shadow: #0b0b0b;
+}
+
+header {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    
+}
+
+.item {
+    scroll-margin-top: 1ex;
+}
+
+header .logo {
+    cursor: pointer;
+}
+
+header .logo img {
+    transition: all 0.3s;
+}
+
+header .logo img:hover {
+    transform: scale(1.2);
+}
+
+
+.cabecera ul{
+ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 5%;
+    font-weight: bold;
+
+
+}
+
+
+ul li {
+    
+    list-style-type: none;
+    padding: 0px 20px;
+
+}
+
+a {
+
+    color: #090909;
+    text-decoration: none;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+a:hover {
+    color: #4a4b4b;
+    
+}
+    
+    
+
+/*Creamos el main*/
+
+
+
+.title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 60px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #090909;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+
+
+
+/*Creamos la primera sección*/
+
+.init {
+
+    background-image: url(imagenes/pruebaGratis.jpg);
+    background-attachment: fixed;
+
+    background-size: cover;
+
+
+}
+
+.init .title {
+    font-size: 100px;
+    text-align: center;
+}
+
+.gratis {
+    color: #ffffff;
+    font-size: 60px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+/*Creamos la segunda sección*/
+
+.sau {
+    padding-bottom: 50px;
+
+    justify-content: left;
+    text-align: left;
+    padding-left: 20px;
+
+
+}
+
+.sau .title {
+    color: #090909;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.mainservicio {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 55px;
+    
+    padding-top: 10px;
+    margin-right: 100px;
+    
+
+}
+
+.mainservicio .personal {
+    justify-content: center;
+    margin-right: 10%;
+    padding-right: 300px;
+
+}
+
+.mainservicio .grupal {
+    justify-content: center;
+    margin-right: 10%;
+    padding-right: 300px;
+
+}
+
+.mainservicio .futbol {
+    justify-content: center;
+    margin-right: 10%;
+    padding-right: 300px;
+
+}
+
+
+
+.modalidades {
+    width: 100px;
+    margin: 4px;
+    height: 450px;
+    border-radius: 6px;
+
+    color: #ffffff;
+    overflow: hidden;
+
+    box-shadow: 0px 1px 10px rgba(249, 247, 247, 0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+
+.modalidades:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translate(-3%);
+}
+
+
+.modalidades .contenido h3 {
+
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    margin-top: 250px;
+    margin-bottom: 1px;
+    padding-left: 55px;
+    padding-top: 1px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+
+}
+
+.modalidades a {
+    color: white;
+}
+
+
+.modalidades .contenido h3 .contenido a {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    margin-top: 250px;
+    margin-bottom: 1px;
+    padding-left: 55px;
+    padding-top: 1px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.personal {
+    background-image: url(imagenes/entreno\ personal.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.grupal {
+
+    background-image: url(imagenes/entrenogrupal.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+.futbol {
+    background-image: url(imagenes/entreno\ futbol.jpg);
+    background-size: cover;
+    width: 100%;
+
+}
+
+/*Creamos la tercera sección*/
+
+.encaje1 {
+    display: flex;
+
+}
+
+.encaje2 {
+    flex-direction: column;
+}
+
+.about {
+
+    padding-top: 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+    justify-content: left;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.about .title {
+    margin-top: 0;
+    margin-left: 10px;
+    color: #090909;
+    margin-bottom: 4px;
+    
+}
+
+.about p {
+    margin-left: 0.5px;
+
+}
+
+
+
+.foto-mario img {
+    margin-left: 80%;
+    margin-top: 0;
+    border-radius: 10px;
+
+
+}
+
+h5 {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+/*creamos la cuarta seccion*/
+
+
+
+
+.instalaciones {
+
+    margin: 0;
+}
+
+.instalaciones .title {
+    margin: 0;
+    margin-left: 20%;
+
+    text-align: left;
+    justify-content: left;
+    font-size: 40px;
+    color: #090909;
+}
+
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.slider {
+    background-image: url(imagenes/gym5.jpg);
+    justify-content: center;
+    margin-left: 300px;
+    height: 80%;
+    width: 60%;
+    overflow: hidden;
+    border-radius: 10px;
+    animation: animate 10s infinite;
+
+}
+
+@keyframes animate {
+    20% {
+        background-image: url(imagenes/gym4.jpg);
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(imagenes/gym3.jpg);
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(imagenes/gym2.jpg);
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url(imagenes/gym1.jpg);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(imagenes/gym5.jpg);
+        background-size: cover;
+    }
+
+    /*Creaos la seccion de contacto*/
+}
+
+
+
+.contact .title {
+    color: black;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.contact .ubicacion {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+/*Creacion de formulario*/
+
+.encajecontact {
+    display: flex;
+
+}
+
+.encajecont2 {
+    flex-direction: column;
+}
+
+.formulario-adapt{
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+
+
+form {
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: screen;
+
+    padding: 50px 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 30%;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+h2 {
+    color: #283629;
+    font-size: 35px;
+
+}
+
+
+label {
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #EDFFF0;
+    border: 2px solid #F0FAF1;
+    color: #283629;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b5cab6;
+}
+
+.form-txt {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form-txt a {
+    color: #010101;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.boton-input {
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+
+    border-radius: 25px;
+    background-color: #51D94C;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+.boton-input:hover {
+    background-color: #50E04B;
+}
+
+/*Creacion de pie de pagina*/
+
+
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 25%;
+    left: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.logopie {
+    height: 80%;
+    margin-bottom: 1rem;
+
+}
+
+.logos-pie-container,
+.footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.logo-pie {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-image: url(imagenes/logo\ instagram.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+
+.logo-pie:hover {
+    background-color: #0b0b0b;
+    filter: invert(1);
+
+}
+
+.logo-pie:nth-of-type(2) {
+    background-image: url(imagenes/YouTube-LOGO-removebg-preview.png);
+}
+
+
+.logo-pie:nth-of-type(3) {
+    background-image: url(imagenes/whatsapp-logo-1-removebg-preview.png);
+}
+
+.footer-menu-container {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.menu-pie {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-pie:hover {
+    opacity: 1;
+}
+
+
+/*HORARIOS Y CLASES*/
+
+.encaje-horario {
+    display: flex;
+}
+
+.horario .title {
+    color: black;
+    font-size: 50px;
+    margin-right: 60px;
+    margin-top: 20%;
+    padding-right: 20px;
+}
+
+.horario {
+
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: absolute;
+
+    margin-top: 20px;
+
+    padding: 0;
+
+}
+
+.celdas {
+
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    width: 340px;
+    font-size: 30px;
+}
+
+.celdas-1 {
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    width: 340px;
+    font-size: 30px;
+}
+
+.celdas-fut {
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    text-align: center;
+    width: 340px;
+    font-size: 30px;
+
+}
+
+th {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*DETALLAMOS LOS SERVICIOS DE LA PARTE PRESENCIAL*/
+
+.personales h3 {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.personales p {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.grupales h3 {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.grupales p {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+
+}
+
+
+
+.futbol h3 {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.futbol p {
+    text-align: left;
+    justify-content: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+
+}
+
+
+
+
